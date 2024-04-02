@@ -29,8 +29,25 @@ body{
 #inf{
     position: absolute;
     top: 50vh;
-    left:95vh;
+    left:90vh;
     padding: 5px 15px;
     border-radius: 3px;
     border-style: none;
+}
+
+@media screen and (max-width: 301px) {
+    #inf {
+        top:45vh;
+        left: 18vh;
+        padding: 15px 30px;
+        border-radius: 6px;
+        font-size: x-large;
+        font-weight: bold;
+    }
+    #main{
+        text-align: center;
+        position: absolute;
+        top: 12vh;
+        left: 11vh;
+    }
 }
